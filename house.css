@@ -1,0 +1,84 @@
+h1 {
+    font-family: 'Arvo', serif;
+    color: #453535;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 25px;
+    letter-spacing: 1px;
+}
+
+div.navigation {
+    text-align: center;
+    word-spacing: 10px;
+}
+
+div.titled {
+    font-family: 'Open Sans';
+    color: #453535;
+    word-spacing: 0px;
+    font-size: 13px;
+    text-align: left;
+    padding-left: 8px;
+}
+
+div.description {
+    font-family: 'Open Sans';
+    color: darkgray;
+    word-spacing: 0px;
+    font-size: 12px;
+    text-align: left;
+    padding-left: 13px;
+}
+
+div.navigation a {
+	color: #4b4545;
+	font-family: 'Open Sans';
+	font-size: 11px;
+    letter-spacing: 1px;
+	text-decoration: none;
+	padding-bottom: 2px;
+}
+
+div.navigation a:nth-child(1) {
+    border-bottom: 2px solid #7dcdc1;
+}
+
+div.navigation a:hover {
+	border-bottom: 2px solid #7dcdc1;
+}
+
+
+div.sprouts img {
+    display: inline-block;
+    left: 1.3%;
+    position: fixed;
+    bottom: 0;
+}
+
+div.buttons img {
+    padding-left: 13px;
+    height:90%;
+    width:90%;
+}
+
+
+table {
+    width: 60%;
+    height: 60%;
+}
+
+table, td {
+    width: 100%/3;
+    padding-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.buttons img:hover {
+    opacity:0.9;
+    transition: 0.3s;
+}
+
+a{
+    text-decoration: none;
+}

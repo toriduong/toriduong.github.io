@@ -1,0 +1,100 @@
+div.title {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 110px;
+}
+
+h1 {
+    font-family: 'Arvo';
+    font-weight: 400;
+    color: #504F59;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 25px;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    border-bottom: 4px dashed #FEDE5F;
+}
+
+div.blurb {
+    font-family: 'Nunito Sans';
+    color: #504F59;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+
+div.navigation {
+    text-align: center;
+    word-spacing: 22px;
+    padding-bottom: 35px;
+}
+
+div.navigation a {
+	color: #504F59;
+	font-family: 'Arvo';
+	font-size: 18px;
+	text-decoration: none;
+	padding-bottom: 2px;
+}
+
+div.navigation a:nth-child(3) {
+    border-bottom: 2px solid #FDC900;
+    padding-bottom: 3px;
+}
+
+div.navigation a:hover {
+	border-bottom: 2px solid #FDC900;
+    padding-bottom: 3px;
+}
+
+div.body {
+    font-family: 'Nunito Sans';
+    font-size: 15px;
+    color: #504F59;
+    width: 450px;
+    letter-spacing: 0.5px;
+}
+
+div.flex-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background-color: #FAFAFA;
+}
+
+div.flex-item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div.description {
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+div.mom img {
+    height:200px;
+    width:200px;
+    padding-left: 50px;
+}
+
+@media only screen and (max-width:768px)
+{
+    div.mom {
+    flex: 0 0 100%;
+    justify-content: center;
+    }
+    
+    div.mom img{
+    padding-left: 0px;
+    }
+    
+    div.description {
+    flex: 0 0 100%;
+    }
+}
