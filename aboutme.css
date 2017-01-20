@@ -5,6 +5,11 @@ div.title {
     height: 110px;
 }
 
+div.title a {
+    text-decoration: none;
+    color: #504F59;
+}
+
 h1 {
     font-family: 'Arvo';
     font-weight: 400;
@@ -68,13 +73,13 @@ div.flex-container {
 }
 
 div.flex-item {
-    padding-top: 20px;
+    padding-top: 15px;
     padding-bottom: 20px;
 }
 
 div.description {
-    padding-left: 30px;
-    padding-top: 50px;
+    padding-left: 40px;
+    padding-top: 38px;
 }
 
 div.mom img {
