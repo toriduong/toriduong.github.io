@@ -142,6 +142,7 @@ p {
 @media only screen and (max-width:768px)
 {
     div.navigation {
+    font-size: 10px;
     word-spacing: 5px;
 }
     body {
