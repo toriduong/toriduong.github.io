@@ -131,8 +131,7 @@ div.mom img {
     height:80%;
     padding-top: 50px;
     padding-bottom: 50px;
-    justify-content: center;
-    margin: 0 auto;
+    margin: auto 15%;
 }
 
 @media only screen and (max-width:768px)
@@ -143,6 +142,7 @@ div.mom img {
     
     div.mom img{
     width: 90%;
+    margin: auto 6%;
     }
     
     div.description {

@@ -65,6 +65,9 @@ div.buttons img {
 
 div.flex-container {
     display:flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     flex-direction:row;
     flex-wrap:wrap;
     justify-content:center;
