@@ -91,6 +91,9 @@ div.body a:hover{
 
 div.flex-container1 {
     display:flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -104,6 +107,9 @@ div.flex-container1 {
 }
 
 div.description {
+    -webkit-box: 0 0 50%;
+    -ms-flexbox: 0 0 50%;
+    -webkit-flex: 0 0 50%;
     flex: 0 0 50%;
     height: 200px;
     width: 70%;
@@ -115,7 +121,9 @@ div.totheright {
 }
 
 div.mom {
-    display: flex;
+    -webkit-box: 0 0 50%;
+    -ms-flexbox: 0 0 50%;
+    -webkit-flex: 0 0 50%;
     flex: 0 0 50%;
 }
 
