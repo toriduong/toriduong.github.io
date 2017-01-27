@@ -65,6 +65,9 @@ div.body {
 
 div.flex-container {
     display:flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -96,10 +99,17 @@ div.mom img {
     }
     
     div.mom img{
-    padding-left: 0px;
+    padding-left: 90px;
+    padding-top: 20px;
     }
     
     div.description {
     flex: 0 0 100%;
+    padding-top: 0px;
+    padding-left: 70px;
+    }
+    
+    div.body {
+    width: 350px;
     }
 }
