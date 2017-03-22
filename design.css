@@ -67,10 +67,11 @@ div.header2 {
 
 div.body {
     font-family: 'Nunito Sans';
-    font-size: 15px;
+    font-size: 1em;
     color: #504F59;
     width: 70%;
     letter-spacing: 0.5px;
+    line-height: 1.5;
     word-spacing: 0px;
 }
 
@@ -128,7 +129,7 @@ div.mom {
 }
 
 div.mom img {
-    height:80%;
+    width:70%;
     padding-top: 50px;
     padding-bottom: 50px;
     margin: auto 15%;

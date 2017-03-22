@@ -147,8 +147,13 @@ h4 {
     letter-spacing: 0.5px;
 }
 
+div.storyboards {
+    width: 72%;
+}
+
 div.storyboards img{
     padding-left: 5px;
+    width: 100%;
 }
 
 div.final img{

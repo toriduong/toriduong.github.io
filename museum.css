@@ -113,10 +113,13 @@ h4 {
     letter-spacing: 0.5px;
 }
 
+div.interview {
+    width: 50%;
+}
+
 div.interview img {
-    height:85%;
+    width: 100%;
     padding-top: 50px;
-    padding-left: 30px;
 }
 
 div.parallel img {
@@ -124,13 +127,22 @@ div.parallel img {
     padding-top: 10px;
 }
 
+div.round1 {
+    width: 50%;
+}
+
 div.round1 img{
-    width: 90%;
+    width: 100%;
     padding-top: 30px;
     padding-left: 30px;
 }
 
+div.round2 {
+    width: 50%;
+}
+
 div.round2 img{
+    width: 100%;
     padding-bottom: 50px;
 }
 

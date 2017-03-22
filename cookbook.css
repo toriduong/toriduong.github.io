@@ -48,6 +48,7 @@ div.navigation a:hover {
 div.body {
     font-family: 'Nunito Sans';
     font-size: 1.125em;
+    line-height: 1.5;
     color: #504F59;
     width: 450px;
     letter-spacing: 0.5px;
@@ -70,8 +71,9 @@ div.body a:hover{
 div.body2 {
     font-family: 'Nunito Sans';
     font-size: 1.125em;
+    line-height: 1.5;
     color: #504F59;
-    width: 930px;
+    width: 850px;
     letter-spacing: 0.5px;
 }
 
@@ -94,6 +96,7 @@ div.flex-container {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0px 25px 0px 0px;
     width: 1256px;
     background-color: #FAFAFA;
 }
@@ -106,7 +109,7 @@ div.flex-container2 {
     width: 1256px;
 }
 
-div.flex-item {
+div.flex-item2 {
     padding-bottom: 20px;
 }
 
@@ -122,10 +125,10 @@ div.cookbook {
 h2 {
     font-family: 'Nunito Sans';
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.5em;
     color: #504F59;
+    text-align: left;
     letter-spacing: 0.5px;
-    text-align: center;
     padding-top: 20px;
 }
 
@@ -153,10 +156,17 @@ div.prototypes img {
 div.storyboard img {
     width: 70%;
     padding-left: 170px;
-    padding-bottom: 40px;
 }
 
 div.homepage img {
     width: 70%;
     padding-top: 30px;
+}
+
+#hr {
+    width: 80%;
+    margin: 2% 10%;
+    color: #E5E5E5;
+    height: 1px;
+    border-bottom: 2px solid #E5E5E5; 
 }
