@@ -17,6 +17,19 @@ h1 {
     border-bottom: 4px dashed #FEDE5F;
 }
 
+h1 a{
+    color: #504F59;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    opacity: 0.75;
+}
+
+h1 a:visited {
+    color: #504F59;
+}
+
 div.blurb {
     font-family: 'Nunito Sans';
     color: #504F59;
