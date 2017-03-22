@@ -50,7 +50,7 @@ div.body {
     font-size: 1.125em;
     line-height: 1.5;
     color: #504F59;
-    width: 450px;
+    width: 800px;
     letter-spacing: 0.5px;
 }
 
@@ -99,6 +99,15 @@ div.flex-container {
     margin: 0px 25px 0px 0px;
     width: 1256px;
     background-color: #FAFAFA;
+}
+
+div.hi-fi {
+    width: 65%;
+    padding-right: 40px;
+}
+
+div.hi-fi img {
+    width: 110%;
 }
 
 div.flex-container2 {
@@ -161,6 +170,11 @@ div.storyboard img {
 div.homepage img {
     width: 70%;
     padding-top: 30px;
+}
+
+div.ttt img {
+    width: 65%;
+    padding-left: 210px;
 }
 
 #hr {

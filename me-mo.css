@@ -162,6 +162,11 @@ div.final img{
     padding-top: 10px;
 }
 
+div.aesthetic {
+    width: 80%;
+}
+
 div.aesthetic img{
+    width: 100%;
     padding-top: 50px;
 }
