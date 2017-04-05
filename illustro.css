@@ -70,13 +70,6 @@ div.navigation a:hover {
     padding-bottom: 3px;
 }
 
-
-div.buttons img {
-    height:90%;
-    width:90%;
-    padding-top: 25px;
-}
-
 div.flex-container {
     display:flex;
     display: -webkit-box;
@@ -99,23 +92,24 @@ div.flex-item {
 div.flex-item img {
     height:100%;
     width:100%;
-    padding-left: 7px;
-    padding-right: 7px;
+    padding: 8px;
 }
 
 div.bigger {
     flex-grow:2;
     width:100%;
     height:100%;
-    padding-top: 7px;
-    padding-bottom: 7px;
 }
 
-p {
-    font-family: 'Open Sans';
-    font-size: 12px;
-    color: #453535;
-    align-items: center;
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: 'Nunito Sans';
+    font-size: 1.1em;
+    line-height: 1.75;
+    color: #504F59;
+    letter-spacing: 0.5px;
 }
 
 
@@ -132,7 +126,7 @@ p {
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: white;
+  color: black;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -141,16 +135,26 @@ p {
 
 .next {
   right: 0;
+  background-color: rgba(241,241,241,1);
   border-radius: 3px 0 0 3px;
 }
 
 .prev {
   left: 0;
-    border-radius: 3px 0 0 3px;
+  background-color: rgba(241,241,241,1);
+  border-radius: 3px 0 0 3px;
 }
 
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.5);
+  background-color: white;
+}
+
+#hr {
+    width: 100%;
+    margin: 1%;
+    color: #E5E5E5;
+    height: 1px;
+    border-bottom: 2px solid #E5E5E5; 
 }
 
 @media only screen and (max-width:768px)
@@ -178,12 +182,8 @@ div.flex-item {
     overflow:hidden;
     margin: auto;
     flex-grow:1;
-    padding-bottom: 10px;
 } 
 
-div.kid {
-    padding-bottom: 5px;
-}
     
 div.butt {
     height: 30%; 
@@ -200,6 +200,5 @@ div.bigger {
     flex-grow:2;
     width:100%;
     height:100%;
-    padding-bottom: 10px;
 }
-}
+
