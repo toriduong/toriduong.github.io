@@ -1,0 +1,228 @@
+div.title {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 110px;
+}
+
+h1 {
+    font-family: 'Arvo';
+    font-weight: 400;
+    color: #504F59;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 25px;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    border-bottom: 4px dashed #FEDE5F;
+}
+
+h1 a{
+    color: #504F59;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    opacity: 0.75;
+}
+
+h1 a:visited {
+    color: #504F59;
+}
+
+div.blurb {
+    font-family: 'Nunito Sans';
+    color: #504F59;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+
+div.navigation {
+    text-align: center;
+    word-spacing: 22px;
+    padding-bottom: 35px;
+}
+
+div.navigation a {
+	color: #504F59;
+	font-family: 'Arvo';
+	font-size: 18px;
+	text-decoration: none;
+	padding-bottom: 2px;
+}
+
+div.navigation a:hover {
+	border-bottom: 2px solid #FDC900;
+    padding-bottom: 3px;
+}
+
+div.body {
+    font-family: 'Nunito Sans';
+    font-size: 1.1em;
+    line-height: 1.75;
+    color: #504F59;
+    width: 800px;
+    letter-spacing: 0.5px;
+}
+
+div.body a{
+    color: #504F59;
+    font-weight: 600;
+    text-decoration:none;
+    border-bottom: 2px solid #FDC900;
+}
+
+div.body a:hover{
+    font-weight: 600;
+    text-decoration: none;
+    color: #504F59;
+    opacity: 0.7;
+}
+
+div.body2 {
+    font-family: 'Nunito Sans';
+    font-size: 1.1em;
+    line-height: 1.75;
+    color: #504F59;
+    width: 800px;
+    letter-spacing: 0.5px;
+}
+
+div.body2 a{
+    color: #504F59;
+    font-weight: 600;
+    text-decoration:none;
+    border-bottom: 2px solid #FDC900;
+}
+
+div.body2 a:hover{
+    font-weight: 600;
+    text-decoration: none;
+    color: #504F59;
+    opacity: 0.7;
+}
+
+div.flex-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px 25px 0px 0px;
+    width: 1256px;
+    background-color: #FAFAFA;
+}
+
+div.hi-fi {
+    width: 65%;
+    padding-right: 40px;
+}
+
+div.hi-fi img {
+    width: 110%;
+}
+
+div.flex-container2 {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1256px;
+}
+
+div.flex-item2 {
+    padding-bottom: 20px;
+}
+
+div.description {
+    padding-left: 30px;
+}
+
+div.cookbook {
+    padding-left: 135px;
+    padding-right: 30px;
+}
+
+h2 {
+    font-family: 'Nunito Sans';
+    font-weight: 600;
+    font-size: 1.7em;
+    color: #424149;
+    text-align: left;
+    letter-spacing: 0.5px;
+}
+
+h3 {
+    font-family: 'Nunito Sans';
+    font-weight: 600;
+    font-size: 1.3em;
+    color: #504F59;
+    letter-spacing: 0.5px;
+}
+
+h4 {
+    font-family: 'Nunito Sans';
+    font-weight: 600;
+    font-size: 1.3em;
+    color: #504F59;
+    letter-spacing: 0.5px;
+}
+
+div.view {
+    text-align: center;
+}
+
+div.prototypes img {
+    width: 61%;
+    padding-left: 245px;
+}
+
+div.prototypes2 img {
+    width: 61%;
+    padding-left: 250px;
+}
+
+div.storyboard img {
+    width: 60%;
+    padding-left: 240px;
+}
+
+div.wireframes img {
+    width: 60%;
+    padding-left: 250px;
+}
+
+div.homepage img {
+    width: 70%;
+    padding-top: 30px;
+}
+
+div.ttt img {
+    width: 70%;
+    padding-left: 200px;
+}
+
+div.recipes {
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    width: 90%;
+}
+
+div.recipes img {
+    width: 100%;
+}
+
+#caption {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+#hr {
+    width: 80%;
+    margin: 2% 10%;
+    color: #E5E5E5;
+    height: 1px;
+    border-bottom: 2px solid #E5E5E5; 
+}

@@ -35,19 +35,27 @@ h1 a:visited {
     color: #504F59;
 }
 
+h3 {
+    font-family: 'Nunito Sans';
+    font-weight: 600;
+    font-size: 1.3em;
+    color: #504F59;
+    letter-spacing: 0.5px;
+}
+
 div.blurb {
     font-family: 'Nunito Sans';
     color: #504F59;
     font-size: 20px;
     text-align: center;
     padding-bottom: 35px;
+    letter-spacing: 0.5px;
 }
 
 
 div.navigation {
     text-align: center;
     word-spacing: 22px;
-    padding-bottom: 35px;
 }
 
 div.navigation a {
@@ -70,10 +78,24 @@ div.navigation a:hover {
 
 div.body {
     font-family: 'Nunito Sans';
-    font-size: 15px;
+    font-size: 1.1em;
+    line-height: 1.75;
     color: #504F59;
-    width: 450px;
+    width: 500px;
     letter-spacing: 0.5px;
+}
+
+div.body a{
+    color: #504F59;
+    font-weight: 600;
+    text-decoration:none;
+}
+
+div.body a:hover{
+    font-weight: 600;
+    text-decoration: none;
+    color: #504F59;
+    opacity: 0.7;
 }
 
 div.flex-container {
@@ -83,14 +105,38 @@ div.flex-container {
     display: -webkit-flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
     width: 100%;
-    background-color: #FAFAFA;
+    justify-content: center;
 }
 
 div.flex-item {
     padding-top: 15px;
     padding-bottom: 20px;
+}
+
+div.body2 {
+    font-family: 'Nunito Sans';
+    font-size: 1.1em;
+    line-height: 1.75;
+    color: #504F59;
+    width: 500px;
+    letter-spacing: 0.5px;
+    width: 250px;
+    padding-left: 50px;
+}
+
+div.body2 a{
+    color: #504F59;
+    font-weight: 600;
+    text-decoration:none;
+    border-bottom: 2px solid #FDC900;
+}
+
+div.body2 a:hover{
+    font-weight: 600;
+    text-decoration: none;
+    color: #504F59;
+    opacity: 0.7;
 }
 
 div.description {
@@ -102,6 +148,11 @@ div.mom img {
     height:200px;
     width:200px;
     padding-left: 50px;
+}
+
+div.gurl img {
+    padding-top: 20px;
+    width: 65%;
 }
 
 @media only screen and (max-width:768px)
@@ -127,6 +178,10 @@ div.mom img {
     }
     
     div.body {
+    padding-top: 20px;
     width: 90%;
+    }
+    div.body2{
+    padding-left: 0px;
     }
 }

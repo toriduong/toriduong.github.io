@@ -60,8 +60,8 @@ div.navigation a:hover {
 
 div.body {
     font-family: 'Nunito Sans';
-    font-size: 1.125em;
-    line-height: 1.5;
+    font-size: 1.1em;
+    line-height: 1.75;
     color: #504F59;
     width: 800px;
     letter-spacing: 0.5px;
@@ -83,10 +83,10 @@ div.body a:hover{
 
 div.body2 {
     font-family: 'Nunito Sans';
-    font-size: 1.125em;
-    line-height: 1.5;
+    font-size: 1.1em;
+    line-height: 1.75;
     color: #504F59;
-    width: 850px;
+    width: 800px;
     letter-spacing: 0.5px;
 }
 
@@ -147,11 +147,10 @@ div.cookbook {
 h2 {
     font-family: 'Nunito Sans';
     font-weight: 600;
-    font-size: 1.5em;
+    font-size: 1.7em;
     color: #504F59;
     text-align: left;
     letter-spacing: 0.5px;
-    padding-top: 20px;
 }
 
 h3 {
@@ -171,13 +170,12 @@ h4 {
 }
 
 div.prototypes img {
-    width: 70%;
-    padding-left: 185px;
+    width: 100%;
 }
 
 div.storyboard img {
-    width: 70%;
-    padding-left: 170px;
+    width: 65%;
+    padding-left: 240px;
 }
 
 div.homepage img {
@@ -187,7 +185,23 @@ div.homepage img {
 
 div.ttt img {
     width: 65%;
-    padding-left: 210px;
+    padding-left: 230px;
+}
+
+div.recipes {
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    width: 90%;
+}
+
+div.recipes img {
+    width: 100%;
+}
+
+#caption {
+    text-align: center;
+    font-size: 0.8em;
 }
 
 #hr {

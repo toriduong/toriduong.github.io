@@ -58,19 +58,25 @@ div.navigation a:hover {
     padding-bottom: 3px;
 }
 
+div.flex-item2 {
+    padding-bottom: 20px;
+}
+
 div.body {
     font-family: 'Nunito Sans';
-    font-size: 15px;
+    font-size: 1.1em;
+    line-height: 1.75;
     color: #504F59;
-    width: 450px;
+    width: 800px;
     letter-spacing: 0.5px;
 }
 
 div.body2 {
     font-family: 'Nunito Sans';
-    font-size: 15px;
+    font-size: 1.1em;
+    line-height: 1.75;
     color: #504F59;
-    width: 930px;
+    width: 800px;
     letter-spacing: 0.5px;
 }
 
@@ -84,11 +90,11 @@ div.body3 {
 
 div.body4 {
     font-family: 'Nunito Sans';
-    font-size: 15px;
+    font-size: 1.1em;
+    line-height: 1.75;
     color: #504F59;
     width: 500px;
     letter-spacing: 0.5px;
-    padding-left: 50px;
 }
 
 div.flex-container {
@@ -125,11 +131,6 @@ div.flex-container4 {
     background-color: #FAFAFA;
 }
 
-div.flex-item {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
 div.description {
     padding-left: 30px;
 }
@@ -137,17 +138,16 @@ div.description {
 h2 {
     font-family: 'Nunito Sans';
     font-weight: 600;
-    font-size: 20px;
-    color: #504F59;
+    font-size: 1.7em;
+    color: #424149;
+    text-align: left;
     letter-spacing: 0.5px;
-    text-align: center;
-    padding-top: 20px;
 }
 
 h3 {
     font-family: 'Nunito Sans';
     font-weight: 600;
-    font-size: 17px;
+    font-size: 1.3em;
     color: #504F59;
     letter-spacing: 0.5px;
 }
@@ -155,7 +155,7 @@ h3 {
 h4 {
     font-family: 'Nunito Sans';
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.3em;
     color: #504F59;
     letter-spacing: 0.5px;
 }
@@ -164,9 +164,15 @@ div.storyboards {
     width: 72%;
 }
 
+div.hi-fi img{
+    width: 70%;
+    padding-left: 210px;
+}
+
 div.storyboards img{
-    padding-left: 5px;
+    padding-left: 10px;
     width: 100%;
+    padding-top: 20px;
 }
 
 div.final img{
@@ -182,4 +188,12 @@ div.aesthetic {
 div.aesthetic img{
     width: 100%;
     padding-top: 50px;
+}
+
+#hr {
+    width: 80%;
+    margin: 2% 10%;
+    color: #E5E5E5;
+    height: 1px;
+    border-bottom: 2px solid #E5E5E5; 
 }
