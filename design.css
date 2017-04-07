@@ -153,16 +153,26 @@ div.mom img {
 {
     div.navigation {
     font-size: 5px;
-    word-spacing: 5px;
 }
     div.mom {
     flex: 0 0 100%;
     }
     
+    #space {
+    padding-bottom: 40px;
+    }
+    
     div.mom img{
     width: 90%;
     margin: auto 6%;
-    padding-top: 30%;
+    }
+    
+    #white img{
+    padding-top: 20%;
+    }
+    
+    div.cafe {
+    padding-top: 20px;
     }
     
     div.description {
@@ -170,18 +180,20 @@ div.mom img {
     }
     
     div.body {
-    text-align: center;
+    text-align: left;
     justify-content: center;
     width: 90%;
     margin: 0 auto;
     }
     
     div.header1 {
-    text-align: center;
+    padding-left: 15px;
+    text-align: left;
     }
     
     div.header2 {
-    text-align: center;
+    padding-left: 15px;
+    text-align: left;
     }
     
     div.totheright {

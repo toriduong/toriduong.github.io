@@ -105,6 +105,9 @@ div.body2 a:hover{
 }
 
 div.flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -125,10 +128,14 @@ div.hi-fi img {
 
 div.flex-container2 {
     display:flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width: 1256px;
+    width: 100%;
 }
 
 div.flex-item2 {
@@ -210,4 +217,49 @@ div.recipes img {
     color: #E5E5E5;
     height: 1px;
     border-bottom: 2px solid #E5E5E5; 
+}
+
+@media only screen and (max-width:768px)
+{
+    div.navigation {
+    font-size: 5px;
+}
+    div.flex-container2 {
+    flex: 0 0 100%;
+    justify-content: left;
+    }
+    
+    div.hi-fi {
+    padding-left: 30px;
+    width: 78%;
+    }
+
+    h2 {
+    padding-left: 30px;
+    }
+    
+    div.body{
+    width: 94%;
+    }
+    
+    div.body2{
+    flex: 0 0 100%;
+    padding-left: 0px;
+    width: 94%;
+    }
+    
+    div.storyboard img{
+    padding-left: 30px;
+    width: 85%;
+    }
+    
+    div.recipes {
+    padding-left: 15px;
+    width: 90%;
+}
+
+    div.ttt img {
+    width: 85%;
+    padding-left: 30px;
+}
 }
