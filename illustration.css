@@ -161,6 +161,7 @@ div.desc {
 {
     div.navigation {
     font-size: 5px;
+    word-spacing: 5px;
 }
     body {
     padding-left:0%;

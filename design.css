@@ -153,13 +153,14 @@ div.mom img {
 {
     div.navigation {
     font-size: 5px;
+    word-spacing: 5px;
 }
     div.mom {
     flex: 0 0 100%;
     }
     
     #space {
-    padding-bottom: 40px;
+    padding-bottom: 60px;
     }
     
     div.mom img{
@@ -168,7 +169,7 @@ div.mom img {
     }
     
     #white img{
-    padding-top: 20%;
+    padding-top: 30%;
     }
     
     div.cafe {

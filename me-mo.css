@@ -188,6 +188,7 @@ div.aesthetic img{
 {
     div.navigation {
     font-size: 5px;
+    word-spacing: 5px;
 }
     div.flex-container2 {
     flex: 0 0 100%;
