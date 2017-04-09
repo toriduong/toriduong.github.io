@@ -79,6 +79,12 @@ div.header2 {
     padding-top: 5px;
 }
 
+div.header4 {
+    font-family: 'Arvo';
+    font-size: 25px;
+    color: #504F59;
+}
+
 div.body {
     font-family: 'Nunito Sans';
     font-size: 1em;
@@ -149,6 +155,34 @@ div.mom img {
     margin: auto 15%;
 }
 
+div.museum {
+    -webkit-box: 0 0 50%;
+    -ms-flexbox: 0 0 50%;
+    -webkit-flex: 0 0 50%;
+    flex: 0 0 50%;
+}
+
+div.museum img {
+    width:70%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto 15%;
+}
+
+div.cafe {
+    -webkit-box: 0 0 50%;
+    -ms-flexbox: 0 0 50%;
+    -webkit-flex: 0 0 50%;
+    flex: 0 0 50%;
+}
+
+div.cafe img {
+    width:70%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto 15%;
+}
+
 @media only screen and (max-width:768px)
 {
     div.navigation {
@@ -164,6 +198,15 @@ div.mom img {
     }
     
     div.mom img{
+    width: 90%;
+    margin: auto 6%;
+    }
+    
+    div.cafe {
+    flex: 0 0 100%;
+    }
+    
+    div.cafe img{
     width: 90%;
     margin: auto 6%;
     }
@@ -193,9 +236,23 @@ div.mom img {
     text-align: left;
     }
     
+    div.header4 {
+    padding-left: 15px;
+    padding-top: 50px;
+    text-align: left;
+    }
+    
+    div.museum {
+    flex: 0 0 100%; 
+    }
+    
+    div.museum img{
+    width: 90%;
+    margin: auto 6%;
+    }
+    
     div.totheright {
     text-align:center;
     padding-left: 0px;
-    padding-top: 50px;
     }
 }
