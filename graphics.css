@@ -157,6 +157,10 @@ div.desc {
     border-bottom: 2px solid #E5E5E5; 
 }
 
+div.user img {
+    width: 98%;
+}
+
 @media only screen and (max-width:768px)
 {
     div.navigation {
